@@ -1,7 +1,6 @@
 ##Read Me: In fulfillment for the subject BES 10a, this project is a Python-based Number Guessing Hangman game that applies Chapter 5 loop and iteration concepts. It features a  nested setup, using an outer definite "for" loop to cycle through game rounds and an inner indefinite "while" loop for active, turn-by-turn guessing. The game logic relies on basic loop patterns: a counter variable tracks mistakes , a boolean search flag verifies guesses, and an "if/elif" structure prints the text-based hangman drawings. Finally, "break" statements handle wins or losses , while a "continue" statement skips over lines starting with #, showing how simple control flow can build an interactive terminal application.
 
 ##This is the title section
-#Hangman 
 print("===================NUMBER GUESSING HANGMAN==================")
 print("Instructions: Guess one digit at a time. Type '#' to write a")
 print("note, or 'done' to quit.")
